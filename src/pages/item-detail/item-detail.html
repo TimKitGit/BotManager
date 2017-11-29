@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ item.name }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+  </div>
+
+  <div class="item-detail" padding>
+    <ion-item no-padding no-lines>
+        <h2 item-start>{{item.name}}</h2>
+        <button item-end ion-button icon-only clear (click)="renameUser()">
+          <ion-icon name="md-create"></ion-icon>
+        </button>
+    </ion-item>
+    <!-- <p>{{item.about}}</p> -->
+  </div>
+</ion-content>
