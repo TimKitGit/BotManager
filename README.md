@@ -3,3 +3,5 @@
 #### Step tow - $ cd ./BotManager
 #### Step three - $ npm install
 #### Step four - $ ionic serve
+
+<img src="assets/img/speakers/giraffe.jpg">
