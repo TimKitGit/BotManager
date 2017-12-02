@@ -4,4 +4,4 @@
 #### Step three - $ npm install
 #### Step four - $ ionic serve
 
-<img src="assets/img/speakers/giraffe.jpg">
+<img src="/assets/img/speakers/giraffe.jpg" alt="scrin">
